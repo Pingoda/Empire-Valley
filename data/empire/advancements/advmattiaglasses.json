@@ -1,0 +1,34 @@
+{
+    "display": {
+        "title": {
+            "text": "Occhiali di Mattia",
+            "color": "aqua",
+            "italic": false,
+            "bold": true
+        },
+        "description": {
+            "text": "Hai ottenuto gli Occhiali di Mattia!",
+            "color": "gray",
+            "italic": true
+        },
+        "icon": {
+            "item": "minecraft:iron_ingot"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "mattiaGlasses": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "empire:mattia/mattiaglasses"
+            }
+        }
+    },
+    "rewards": {
+        "function": "empire:gives/mattia/mattiaglasses"
+    },
+    "parent": "empire:advteamempire"
+}

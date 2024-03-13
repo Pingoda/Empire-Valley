@@ -1,0 +1,33 @@
+{
+    "display": {
+        "title": {
+            "text": "Redbull di Zanjo",
+            "color": "gold",
+            "bold": true
+        },
+        "description": {
+            "text": "Ottieni la Redbull di Zanjo",
+            "italic": true,
+            "color": "gray"
+        },
+        "icon": {
+            "item": "minecraft:potion"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "zanjoRedbull": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "empire:zanjo/zanjoredbull"
+            }
+        }
+    },
+    "rewards": {
+        "function": "empire:gives/zanjo/zanjoredbull"
+    },
+    "parent": "empire:advteamempire"
+}

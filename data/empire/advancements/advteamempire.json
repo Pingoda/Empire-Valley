@@ -1,0 +1,33 @@
+{
+    "display": {
+        "title": {
+            "text": "Team Empire Studios",
+            "color": "dark_green",
+            "bold": true
+        },
+        "description": {
+            "text": "Hai ottenuto il Team della Empire Studios!",
+            "color": "gray",
+            "italic": true
+        },
+        "icon": {
+            "item": "minecraft:paper"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "teamEmpire": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "empire:teamempire"
+            }
+        }
+    },
+    "rewards": {
+        "function": "empire:gives/teamempire"
+    },
+    "parent": "empire:root"
+}

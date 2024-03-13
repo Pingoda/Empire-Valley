@@ -1,0 +1,33 @@
+{
+    "display": {
+        "title": {
+            "text": "Videocamera di Reddy",
+            "color": "red",
+            "bold": true
+        },
+        "description": {
+            "text": "Hai ottenuto la Videocamera di Reddy",
+            "color": "gray",
+            "italic": true
+        },
+        "icon": {
+            "item": "minecraft:anvil"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "reddyCam": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "empire:reddycam"
+            }
+        }
+    },
+    "rewards": {
+        "function": "empire:gives/reddycam"
+    },
+    "parent": "empire:advteamempire"
+}

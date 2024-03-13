@@ -1,0 +1,14 @@
+{
+    "criteria": {
+        "matteoSole": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "empire:matteo/matteosole"
+            }
+        }
+    },
+    "rewards": {
+        "function": "empire:gives/matteo/matteosole"
+    },
+    "parent": "empire:advmatteoshoes"
+}

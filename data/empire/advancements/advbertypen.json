@@ -1,0 +1,14 @@
+{
+    "criteria": {
+        "bertyPen": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "empire:berty/bertypen"
+            }
+        }
+    },
+    "rewards": {
+        "function": "empire:gives/berty/bertypen"
+    },
+    "parent": "empire:advbertybook"
+}

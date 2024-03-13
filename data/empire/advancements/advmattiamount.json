@@ -1,0 +1,14 @@
+{
+    "criteria": {
+        "mattiaMount": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "empire:mattia/mattiamount"
+            }
+        }
+    },
+    "rewards": {
+        "function": "empire:gives/mattia/mattiamount"
+    },
+    "parent": "empire:advmattiaglasses"
+}

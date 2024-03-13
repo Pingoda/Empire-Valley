@@ -1,0 +1,14 @@
+{
+    "criteria": {
+        "matteoFabric": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "empire:matteo/matteofabric"
+            }
+        }
+    },
+    "rewards": {
+        "function": "empire:gives/matteo/matteofabric"
+    },
+    "parent": "empire:advmatteoshoes"
+}

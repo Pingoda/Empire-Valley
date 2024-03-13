@@ -1,0 +1,33 @@
+{
+    "display": {
+        "title": {
+            "text": "Scarpe di Matteo",
+            "color": "dark_purple",
+            "bold": true
+        },
+        "description": {
+            "text": "Hai ottenuto le Scarpe di Matteo!",
+            "color": "gray",
+            "italic": true
+        },
+        "icon": {
+            "item": "minecraft:golden_boots"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "matteoShoes": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "empire:matteo/matteoshoes"
+            }
+        }
+    },
+    "rewards": {
+        "function": "empire:gives/matteo/matteoshoes"
+    },
+    "parent": "empire:advteamempire"
+}

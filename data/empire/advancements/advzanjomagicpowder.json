@@ -1,0 +1,14 @@
+{
+    "criteria": {
+        "zanjoMagicPowder": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "empire:zanjo/zanjomagicpowder"
+            }
+        }
+    },
+    "rewards": {
+        "function": "empire:gives/zanjo/zanjomagicpowder"
+    },
+    "parent": "empire:advzanjoredbull"
+}

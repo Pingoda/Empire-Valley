@@ -1,0 +1,33 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#IY",
+        "iPi",
+        "iGi"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:red_dye"
+        },
+        "I": {
+            "item": "minecraft:iron_nugget"
+        },
+        "Y": {
+            "item": "minecraft:yellow_dye"
+        },
+        "i": {
+            "item": "minecraft:iron_ingot"
+        },
+        "P": {
+            "item": "minecraft:potion"
+        },
+        "E": {
+            "item": "minecraft:beetroot"
+        }
+    },
+    "result": {
+        "item": "minecraft:knowledge_book",
+        "count": 1
+    },
+    "group": "empire"
+}

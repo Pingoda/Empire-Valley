@@ -1,0 +1,14 @@
+{
+    "criteria": {
+        "mattiaLenses": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "empire:mattia/mattialenses"
+            }
+        }
+    },
+    "rewards": {
+        "function": "empire:gives/mattia/mattialenses"
+    },
+    "parent": "empire:advmattiaglasses"
+}

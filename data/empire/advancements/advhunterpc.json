@@ -1,0 +1,33 @@
+{
+    "display": {
+        "title": {
+            "text": "Computer di Hunter",
+            "color": "blue",
+            "bold": true
+        },
+        "description": {
+            "text": "Hai ottenuto il Computer di Hunter!",
+            "color": "gray",
+            "italic": true
+        },
+        "icon": {
+            "item": "minecraft:glass_pane"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "hunterPC": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "empire:hunterpc"
+            }
+        }
+    },
+    "rewards": {
+        "function": "empire:gives/hunterpc"
+    },
+    "parent": "empire:advteamempire"
+}

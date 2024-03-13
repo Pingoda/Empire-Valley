@@ -1,0 +1,27 @@
+{
+    "display": {
+        "title": {
+            "text": "Empire Valley",
+            "bold": true,
+            "color": "green"
+        },
+        "description": {
+            "text": "Benvenuti nella Empire Valley!",
+            "italic": true,
+            "color": "gray"
+        },
+        "icon": {
+            "item": "minecraft:grass_block"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false,
+        "background": "minecraft:textures/gui/advancements/backgrounds/empire.png"
+    },
+    "criteria": {
+        "welcome": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}
