@@ -5,4 +5,4 @@ recipe take @s empire:reddycam
 clear @s minecraft:knowledge_book
 
 # Give Player Custom Item
-give @s paper{display:{Name:'{"text":"Videocamera di Reddy","color":"red","bold":true}',Lore:['{"text":"Chissà per cosa usa questa telecamera Reddy :P","color":"gray","italic":true}']},HideFlags:255} 1
+give @s paper{display:{Name:'{"text":"Videocamera di Reddy","color":"red","bold":true}',Lore:['{"text":"Chissà per cosa usa questa videocamera Reddy :P","color":"gray","italic":true}']},HideFlags:255} 1
