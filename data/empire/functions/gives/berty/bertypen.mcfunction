@@ -1,6 +1,9 @@
 # Revoke Recipe from Player
 recipe take @s empire:berty/bertypen
 
+# Revoke Advancement from Player
+advancement revoke @s only empire:advbertypen
+
 # Clear Player's Inventory from Knowledge Book
 clear @s minecraft:knowledge_book
 

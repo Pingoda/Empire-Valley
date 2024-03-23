@@ -1,18 +1,17 @@
 {
     "display": {
         "title": {
-            "text": "Libro di Berty",
-            "color": "dark_purple",
+            "text": "Diritti di Robin",
+            "color": "dark_aqua",
             "bold": true
         },
         "description": {
-            "text": "Hai ottenuto il Libro di Berty!",
+            "text": "Hai ottenuto i Diritti di Robin!",
             "color": "gray",
-            "italic": true,
-            "bold": false
+            "italic": true
         },
         "icon": {
-            "item": "minecraft:writable_book"
+            "item": "minecraft:paper"
         },
         "frame": "task",
         "show_toast": true,
@@ -20,15 +19,15 @@
         "hidden": false
     },
     "criteria": {
-        "bertyBook": {
+        "robinrights": {
             "trigger": "minecraft:recipe_unlocked",
             "conditions": {
-                "recipe": "empire:berty/bertybook"
+                "recipe": "empire:robinrights"
             }
         }
     },
     "rewards": {
-        "function": "empire:gives/berty/bertybook"
+        "function": "empire:gives/robinrights"
     },
     "parent": "empire:advteamempire"
 }
