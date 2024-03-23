@@ -1,0 +1,32 @@
+{
+    "display": {
+        "title": {
+            "text": "Paperella di Kia",
+            "color": "yellow"
+        },
+        "description": {
+            "text": "Ottieni la Paperella di Kia.",
+            "color": "gray",
+            "italic": true
+        },
+        "icon": {
+            "item": "minecraft:yellow_dye"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "craftedKiaDuck": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "empire:kiaduck"
+            }
+        }
+    },
+    "rewards": {
+        "function": "empire:gives/kiaduck"
+    },
+    "parent": "empire:root"
+}
