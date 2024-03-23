@@ -1,0 +1,33 @@
+{
+    "display": {
+        "title": {
+            "text": "Shrek",
+            "color": "dark_green",
+            "bold": true
+        },
+        "description": {
+            "text": "Hai ottenuto Shrek!",
+            "color": "gray",
+            "italic": true
+        },
+        "icon": {
+            "item": "minecraft:slime_ball"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "criteria": {
+        "shrek": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "empire:meme/shrek"
+            }
+        }
+    },
+    "rewards": {
+        "function": "empire:gives/meme/shrek"
+    },
+    "parent": "empire:advteamempire"
+}
