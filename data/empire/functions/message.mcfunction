@@ -1,0 +1,5 @@
+# Schedule Itself
+schedule function empire:message 1800s replace
+
+# Send Message
+tellraw @a ["",{"text":"[","color":"#DDDDDD"},{"text":"EmpireValley","bold":true,"color":"green"},{"text":"] Sapevi che in questa modalità ci sono dei ","color":"#DDDDDD"},{"text":"Crafting Custom","italic":true,"color":"aqua"},{"text":"? Se vuoi ","italic":true,"color":"#DDDDDD"},{"text":"visualizzare questi ","color":"#DDDDDD"},{"text":"Crafting Custom ","italic":true,"color":"aqua"},{"text":"dedicati alla ","color":"#DDDDDD"},{"text":"Empire Studios","bold":true,"color":"#2ECC70"},{"text":" premi ","color":"#DDDDDD"},{"text":"QUI","underlined":true,"color":"green","clickEvent":{"action":"open_url","value":"https://docs.google.com/document/d/12oIicL2Oj4u6PKnhG7x8Sc7M4734HoU8hDAAhyY5L9g/edit?usp=sharing"}},{"text":".","color":"#DDDDDD"}]

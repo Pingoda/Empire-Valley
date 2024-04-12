@@ -21,7 +21,7 @@
               "function": "minecraft:set_lore",
               "lore": [
                 {
-                  "text": "Un Salmone che da la Salmonella...",
+                  "text": "Un Salmone che potrebbe dare la Salmonella...",
                   "color": "gray",
                   "italic": true
                 }
