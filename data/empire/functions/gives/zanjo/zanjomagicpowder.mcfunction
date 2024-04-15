@@ -1,6 +1,9 @@
 # Revoke Recipe from Player
 recipe take @s empire:zanjo/zanjomagicpowder
 
+# Revoke Advancement from Player
+advancement revoke @s only empire:advzanjomagicpowder
+
 # Clear Player's Inventory from Knowledge Book
 clear @s minecraft:knowledge_book
 

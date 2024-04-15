@@ -15,7 +15,7 @@
         },
         "frame": "challenge",
         "show_toast": true,
-        "announce_to_chat": true,
+        "announce_to_chat": false,
         "hidden": false,
         "background": "minecraft:textures/gui/advancements/backgrounds/empire.png"
     },

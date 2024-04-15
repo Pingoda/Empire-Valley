@@ -1,6 +1,9 @@
 # Revoke Recipe from Player
 recipe take @s empire:matteo/matteofabric
 
+# Revoke Advancement from Player
+advancement revoke @s only empire:advmatteofabric
+
 # Clear Player's Inventory from Knowledge Book
 clear @s minecraft:knowledge_book
 
