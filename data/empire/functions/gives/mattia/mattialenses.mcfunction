@@ -8,4 +8,4 @@ advancement revoke @s only empire:advmattialenses
 clear @s minecraft:knowledge_book
 
 # Give Player Custom Item
-give @s glass_pane{display:{Name:'{"text":"Lente Pazzurda","color":"dark_aqua","bold":true}',Lore:['{"text":"Una lente per degli occhiali pazzurdi...","color":"gray","italic":true}']},HideFlags:255} 1
+give @s paper{display:{Name:'{"text":"Lente Pazzurda","color":"dark_aqua","bold":true}',Lore:['{"text":"Una lente per degli occhiali pazzurdi...","color":"gray","italic":true}']},HideFlags:255,CustomModelData:213} 1

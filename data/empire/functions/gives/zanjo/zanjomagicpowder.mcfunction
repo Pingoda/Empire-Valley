@@ -8,4 +8,4 @@ advancement revoke @s only empire:advzanjomagicpowder
 clear @s minecraft:knowledge_book
 
 # Give Player Custom Item
-give @s beetroot{display:{Name:'{"text":"Polvere Magica di Zanjo","color":"light_purple","bold":true,"italic":false}',Lore:['{"text":"Chissà di cosa sa...","color":"gray"}']},HideFlags:255,magicpowder:1b} 1
+give @s beetroot{display:{Name:'{"text":"Polvere Magica di Zanjo","color":"light_purple","bold":true,"italic":false}',Lore:['{"text":"Chissà di cosa sa...","color":"gray"}']},HideFlags:255,magicpowder:1b,CustomModelData:215} 1
